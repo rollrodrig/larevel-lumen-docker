@@ -1,0 +1,5 @@
+# install
+docker run --rm -v $(pwd)/src:/app composer install
+
+# run
+docker-compose up
